@@ -4,8 +4,15 @@
 #include<chrono>
 #include<thread>
 
+
 voiud show(){
 	std::cout<<"good better best"<<std::endl;
+}
+
+void swap(int& a,int& b){
+	int tmp=a;
+	a=b;
+	b=tmp;
 }
 
 int main(){
